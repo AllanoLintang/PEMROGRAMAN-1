@@ -7,7 +7,7 @@ int main(){
     else if(nilai >= 70){printf("B\n");}
     else if(nilai >= 60){printf("C\n");}
     else if(nilai >= 50){printf("D\n");}
-    else if(nilai <= 50){printf("F\n");}
+    else if(nilai <= 50){printf("E\n");}
     else{printf("nilai tidak valid!!!11!1!!!\n");}
     }
     return 0;
