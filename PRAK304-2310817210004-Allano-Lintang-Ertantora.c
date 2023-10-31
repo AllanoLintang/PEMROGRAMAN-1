@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main(){
-    int n, i;
-    for(i = 0; i < 5; i++){
+    int n;
+    for(int i = 0; i < 5; i++){
     scanf("%d", &n);
     if(n >= 100 || n < 0){printf("Anda Menginput Melebihi Limit Bilangan\n");}
     else if (n >= 20){printf("Puluhan\n");}
