@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main(){
-    int d, i;
-    for(i=0;i<5;i++){
+    int d;
+    for(int i=0;i<5;i++){
     scanf("%d", &d);
     int hh = d / 84600;
     int jj = d / 3600;
