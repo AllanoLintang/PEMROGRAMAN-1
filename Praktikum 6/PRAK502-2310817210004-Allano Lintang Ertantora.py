@@ -1,0 +1,7 @@
+import math
+def hitung(nilai1, nilai2):
+    return abs(nilai1 - nilai2)
+def mutlak(angka):
+    return abs(angka)
+a, c, b, d = map(int, input().split())
+print(mutlak(hitung(a, b) + hitung(c, d)))
